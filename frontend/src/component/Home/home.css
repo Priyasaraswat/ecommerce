@@ -1,0 +1,133 @@
+.banner{
+    width:100%;
+    height:100vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.2vmax;
+    /* background: #011c4b; */
+    background-image: linear-gradient( 178.5deg,  rgba(122,231,248,1) 6.5%, rgba(86,118,191,1) 90.9% );
+    color: #f0eef2;
+    z-index: -10;
+
+    
+}
+.banner > h2{
+   text-transform: uppercase;
+   font-size: 2.5vmax;
+}
+.banner > p{
+    font-size: 1.5vmax;
+}
+.homeScroll{
+    width:fit-content
+}
+.homeScroll > button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:0.5vmax;
+    margin-top: 1vmax;
+    padding:0.5vmax 0.9vmax;
+    font-size: 1.2vmax;
+    cursor: pointer;
+    border-radius: 50%;
+    border:none;
+    transition:0.6s ease-out;
+    letter-spacing: 0.4px;
+    /* text-transform: uppercase; */
+    
+}
+.homeScroll > button:hover{
+    background-color: rgb(36, 81, 185);
+    color:#ffffff;
+    border:0.4px solid #f0eef2;
+}
+ /* .banner::after
+{
+    content:"";
+    width:100vw;
+    height: 100vmin;
+    background-color: #ffffff;
+    position: absolute;
+    clip-path: polygon(49% 75%, 0% 100%, 100% 100%);
+
+}   */
+.homeHeading{
+    
+    text-transform: uppercase;
+    font-size: 2vmax;
+    padding:5px;
+    margin-top: 2vmax;
+    margin-bottom: 2vmax;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    z-index:-10;
+}
+.homeHeading::after{
+    content:"";
+    width:22vw;
+    height:0.3vh;
+    background-color: grey;
+    position: absolute;
+    bottom:0;
+    transform: translateX(-99%)
+}
+.container{
+    margin: 3vmax 12vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:2vmax;
+    flex-wrap: wrap;
+}
+.productCard
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color:#000;
+    font-size: 1.1vmax;
+    transition: all ease;
+    padding:1rem;
+}
+.productCard > img{
+    width:17vmax;
+    height:20vh;
+    object-fit:contain; 
+    margin-bottom: 1vmax;
+}
+.starshome
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.starshome > span
+{
+    margin-left: 0.3vmax;
+    font-size: 0.7vmax;
+    font-weight: 600;
+}
+.productCard:hover {
+    /* box-shadow: 0 0 5px rgba(15, 15, 15, 0.26); */
+    box-shadow: 0 0 5px  #32307c;
+    transform: translateY(-0.8vmax);
+  }
+  @media only screen and (max-width:500px){
+    .homeHeading::after{
+       
+        width:48vw;
+       
+    }
+    .container{
+        margin: 2vmax 6vmax;
+        
+        gap:1.5vmax;
+        flex-wrap: wrap;
+    }
+    
+  }

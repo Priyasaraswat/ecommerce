@@ -1,0 +1,21 @@
+.loading{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading > div{
+    height:10vmax;
+    width:10vmax;
+    /* background-color: aqua; */
+    border-bottom:2px solid grey;
+    border-radius: 50%;
+    animation: load 800ms linear infinite;
+}
+
+@keyframes load{
+    to {
+     transform: rotateZ(-360deg);
+    }
+}

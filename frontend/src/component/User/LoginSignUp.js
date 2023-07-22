@@ -168,15 +168,6 @@ const LoginSignUp = () => {
                 onChange={registerDataChange}
               ></input>
             </div>
-            <div id="registerImage">
-              <img src={avatarPreview} alt="Avatar"></img>
-              <input
-                type="file"
-                name="avatar"
-                accept="image/*"
-                onChange={registerDataChange}
-              ></input>
-            </div>
             <input
               value="Register"
               type="submit"

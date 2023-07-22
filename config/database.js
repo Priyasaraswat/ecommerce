@@ -1,10 +1,10 @@
 const mongoose=require("mongoose");
 
 mongoose.set("strictQuery", false);
-const connectDatabase =async()=>
+const connectDatabase =()=>
 {
-    await mongoose.connect(process.env.DB_URL,{useNewUrlParser:true,useUnifiedTopology:true,family: 4,}).then((data)=>{
-        console.log(`Database connected !! `)
+    mongoose.connect(process.env.DB_URL,{useNewUrlParser:true,useUnifiedTopology:true}).then((data)=>{
+        console.log(`Database connected !! ${data.connection.host}`)
     })
    .catch((err)=>{
         console.log(err)

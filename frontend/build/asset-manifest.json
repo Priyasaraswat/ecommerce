@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.44c86f6f.css",
-    "main.js": "/static/js/main.d00110ec.js",
+    "main.css": "/static/css/main.6f87d822.css",
+    "main.js": "/static/js/main.e4399caf.js",
     "static/media/insta.png": "/static/media/insta.b08c1a7b7be1550d2af1.png",
     "static/media/playstore.png": "/static/media/playstore.82b4831979e0ce7c733e.png",
     "static/media/profile.png": "/static/media/profile.2fda6558cd58b877e14f.png",
     "static/media/profilePhoto.png": "/static/media/profilePhoto.2fda6558cd58b877e14f.png",
     "static/media/Appstore.png": "/static/media/Appstore.d0c5839937e3c36285f6.png",
     "index.html": "/index.html",
-    "main.44c86f6f.css.map": "/static/css/main.44c86f6f.css.map",
-    "main.d00110ec.js.map": "/static/js/main.d00110ec.js.map"
+    "main.6f87d822.css.map": "/static/css/main.6f87d822.css.map",
+    "main.e4399caf.js.map": "/static/js/main.e4399caf.js.map"
   },
   "entrypoints": [
-    "static/css/main.44c86f6f.css",
-    "static/js/main.d00110ec.js"
+    "static/css/main.6f87d822.css",
+    "static/js/main.e4399caf.js"
   ]
 }

@@ -6,7 +6,8 @@
   align-items: center;
   justify-content: space-between;
   height:8vh;
-  background-color: rgb(120, 154, 231);
+  background: rgb(180,58,95);
+  background: linear-gradient(90deg, rgba(180,58,95,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   color:#fff;
 
 }
@@ -25,7 +26,9 @@
   position: fixed;
   top:0;
   left:0;
-  background-color: rgba(86,118,191,1);
+  /* background-color: rgba(86,118,191,1); */
+  background: rgb(180,58,95);
+  background: linear-gradient(90deg, rgba(180,58,95,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   z-index: 999999;
 }
 .nav-head>h3{

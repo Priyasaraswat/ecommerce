@@ -19,7 +19,7 @@ const UpdateProfile = () => {
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [avatar, setAvatar] = useState();
+  const [avatar, setAvatar] = useState("/profile.png");
   const [avatarPreview, setAvatarPreview] = useState("/profile.png");
 
   const updateProfileSubmit = (e) => {
@@ -102,7 +102,7 @@ const UpdateProfile = () => {
                 onChange={(e)=>setEmail(e.target.value)}
               ></input>
             </div>
-            <div id="updateProfileImage">
+            {/* <div id="updateProfileImage">
               <img src={avatarPreview} alt="Avatar"></img>
               <input
                 type="file"
@@ -110,7 +110,7 @@ const UpdateProfile = () => {
                 accept="image/*"
                 onChange={updateProfileDataChange}
               ></input>
-            </div>
+            </div> */}
             <input value="Update" type="submit" className="updateProfileBtn" />
           </form>
         </div>
